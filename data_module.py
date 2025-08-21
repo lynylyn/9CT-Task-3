@@ -2,5 +2,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("survey_responses.csv")
-print(df)
+def get_data():
+    return pd.read_csv("survey_responses.csv")
+
+def histo():
+    print("It works!")
+    #s = df['hhdedeyhg']
+    #h = s.value_counts()
