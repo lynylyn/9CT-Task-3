@@ -23,3 +23,13 @@
 - The UI must be very accessible and readable for many different kinds of viewers.
 
 ## Use Cases
+
+# TESTING AND EVALUATING
+
+## Analysis
+- Through my survey and my visualisations of the results, I've found that there is surprisingly little correlation between grades/focus and music habits. The results were incredibly varied. There were people who barely listened to music yet had excellent grades, and people who focused great while listening and yet still had not much confidence in their academic performance.
+
+## Evaluation
+- My system worked well according to my functional and non-functional requirements. It did everything I stated needed to be done.
+- I could have managed my time better, and then could've had a GUI instead of a UI.
+- The data I used is likely valid and accurate as it was collected first-hand and most, if not all, responders to the survey seemed to maintain honesty.
