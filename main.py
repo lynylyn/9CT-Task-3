@@ -30,7 +30,8 @@ def main_menu():
             print("Option 3: line graph")
             choicevis = input("Select an option (1-3): ")
             if choicevis == '1':
-                histo()
+                histo(8)
+                histo(9)
             elif choicevis == '2':
                 scatter()
             elif choicevis == '3':
