@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 from data_module import (
     get_data,
+    print_data,
     histo,
     scatter,
-    line,
     filter_data
 )
 
@@ -22,22 +22,26 @@ def main_menu():
 
         if choice == '1':
             print("You have selected to view the full dataset.")
-            print(get_data())
+            print_data()
         elif choice == '2':
             print("\n=== Please select a visualisation. ===")
             print("Option 1: histogram")
             print("Option 2: scatter plot")
-            print("Option 3: line graph")
-            choicevis = input("Select an option (1-3): ")
+            choicevis = input("Select an option (1-2): ")
             if choicevis == '1':
-                histo(8)
-                histo(9)
+                usercolumn = input("\nWhich column would you like to display a histogram of? Choose between: \n - '1' (how much does the music you're listening to depend on what you're doing) \n - '2' (how much does listening to music help you focus) \n - '3' (how confident are you in your academic performance)\nPlease select a number between 1 and 3: ")
+                if usercolumn == '1':
+                    histo(6)
+                elif usercolumn == '2':
+                    histo(9)
+                elif usercolumn == '3':
+                    histo(10)
+                else:
+                    print("That's not a valid selection! Please choose a number between 1 and 3.")
             elif choicevis == '2':
                 scatter()
-            elif choicevis == '3':
-                line()
             else:
-                print("That's not a valid selection! Please choose a number between 1 and 3.")
+                print("That's not a valid selection! Please choose a number between 1 and 2.")
 
         elif choice == '3':
             print("You have selected to filter the data.")
