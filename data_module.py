@@ -24,8 +24,6 @@ def scatter():
     df.plot.scatter(8, 9)
     plt.show()
 
-def line():
-    pass
-
-def filter_data():
-    pass
+def filter_data(index):
+    df = get_data()
+    print(df[df.columns[index]].to_string(index=False))

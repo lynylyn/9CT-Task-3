@@ -31,11 +31,11 @@ def main_menu():
             if choicevis == '1':
                 usercolumn = input("\nWhich column would you like to display a histogram of? Choose between: \n - '1' (how much does the music you're listening to depend on what you're doing) \n - '2' (how much does listening to music help you focus) \n - '3' (how confident are you in your academic performance)\nPlease select a number between 1 and 3: ")
                 if usercolumn == '1':
-                    histo(6)
+                    histo(5)
                 elif usercolumn == '2':
-                    histo(9)
+                    histo(8)
                 elif usercolumn == '3':
-                    histo(10)
+                    histo(9)
                 else:
                     print("That's not a valid selection! Please choose a number between 1 and 3.")
             elif choicevis == '2':
@@ -45,7 +45,8 @@ def main_menu():
 
         elif choice == '3':
             print("You have selected to filter the data.")
-            filter_data()
+            userfilter = int(input("Please select a column to output: "))
+            filter_data(userfilter)
         elif choice == '4':
             print("Bye!")
             break
