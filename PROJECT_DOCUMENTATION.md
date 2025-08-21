@@ -1,3 +1,17 @@
+# IDENTIFYING AND DEFINING
+
+## Need/opportunity in the school community
+- In Gosford High School, students' music listening habits affect their studying and thus, their grades.
+
+## Hypothesis
+- My hypothesis is that various aspects of music listening will have an impact on students' confidence in 
+
+# RESEARCHING AND PLANNING
+
+## Articles
+- https://www.healthline.com/health/does-music-help-you-study
+- https://www.umgc.edu/blog/how-music-can-help-you-study
+
 # REQUIREMENTS OUTLINE
 
 ## Functional Requirements
