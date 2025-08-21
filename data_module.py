@@ -6,6 +6,15 @@ def get_data():
     return pd.read_csv("survey_responses.csv")
 
 def histo():
-    print("It works!")
+    pass
     #s = df['hhdedeyhg']
     #h = s.value_counts()
+
+def scatter():
+    pass
+
+def line():
+    pass
+
+def filter_data():
+    pass

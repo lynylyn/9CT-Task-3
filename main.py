@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 
 from data_module import (
     get_data,
-    histo
+    histo,
+    scatter,
+    line,
+    filter_data
 )
 
 def main_menu():
@@ -20,7 +23,6 @@ def main_menu():
         if choice == '1':
             print("You have selected to view the full dataset.")
             print(get_data())
-            #print csv file maybe cleaned... matplotlib!
         elif choice == '2':
             print("\n=== Please select a visualisation. ===")
             print("Option 1: histogram")
@@ -37,9 +39,11 @@ def main_menu():
                 print("That's not a valid selection! Please choose a number between 1 and 3.")
 
         elif choice == '3':
-            print("Option 1")
+            print("You have selected to filter the data.")
+            filter_data()
         elif choice == '4':
-            print("Option 1")
+            print("Bye!")
+            break
         else:
             print("That's not a valid selection! Please choose a number between 1 and 4.")
 
